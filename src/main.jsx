@@ -7,7 +7,8 @@ import './index.css'
 // import Exercise1 from './exercise1.jsx'
 // import Props from './props.jsx'
 // import Props1 from './props1.jsx'
-import Props2 from './props2.jsx'
+// import Props2 from './props2.jsx'
+import Webpage from './webpage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
   {/* <Exercise1 /> */}
   {/* <Props /> */}
   {/* <Props1 /> */}
-   <Props2 />
+   {/* <Props2 /> */}
+   <Webpage />
   </StrictMode>,
 )
