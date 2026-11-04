@@ -8,8 +8,9 @@ import './index.css'
 // import Props from './props.jsx'
 // import Props1 from './props1.jsx'
 // import Props2 from './props2.jsx'
-import Webpage from './webpage.jsx'
-
+// import Webpage from './webpage.jsx'
+// import Webpage1 from './webpage1.jsx'
+import Blog from './blog.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <Component /> */}
@@ -19,6 +20,8 @@ createRoot(document.getElementById('root')).render(
   {/* <Props /> */}
   {/* <Props1 /> */}
    {/* <Props2 /> */}
-   <Webpage />
+   {/* <Webpage /> */}
+    {/* <Webpage1 /> */}
+    <Blog />
   </StrictMode>,
 )
