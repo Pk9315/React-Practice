@@ -10,7 +10,8 @@ import './index.css'
 // import Props2 from './props2.jsx'
 // import Webpage from './webpage.jsx'
 // import Webpage1 from './webpage1.jsx'
-import Blog from './blog.jsx'
+// import Blog from './blog.jsx'
+import MathOpt from './mathsOpt.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <Component /> */}
@@ -22,6 +23,7 @@ createRoot(document.getElementById('root')).render(
    {/* <Props2 /> */}
    {/* <Webpage /> */}
     {/* <Webpage1 /> */}
-    <Blog />
+    {/* <Blog /> */}
+    <MathOpt />
   </StrictMode>,
 )
