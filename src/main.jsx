@@ -11,7 +11,9 @@ import './index.css'
 // import Webpage from './webpage.jsx'
 // import Webpage1 from './webpage1.jsx'
 // import Blog from './blog.jsx'
-import MathOpt from './mathsOpt.jsx'
+// import MathOpt from './mathsOpt.jsx'
+// import MathOpt1 from './mathOpt1.jsx'
+import MathOpt2 from './mathOpt2.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <Component /> */}
@@ -24,6 +26,9 @@ createRoot(document.getElementById('root')).render(
    {/* <Webpage /> */}
     {/* <Webpage1 /> */}
     {/* <Blog /> */}
-    <MathOpt />
+    {/* <MathOpt /> */}
+    {/* <MathOpt1 /> */}
+    <MathOpt2 />
+
   </StrictMode>,
 )
