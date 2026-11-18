@@ -13,7 +13,8 @@ import './index.css'
 // import Blog from './blog.jsx'
 // import MathOpt from './mathsOpt.jsx'
 // import MathOpt1 from './mathOpt1.jsx'
-import MathOpt2 from './mathOpt2.jsx'
+import Function from './function.jsx'
+// import MathOpt2 from './mathOpt2.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <Component /> */}
@@ -28,7 +29,8 @@ createRoot(document.getElementById('root')).render(
     {/* <Blog /> */}
     {/* <MathOpt /> */}
     {/* <MathOpt1 /> */}
-    <MathOpt2 />
+    {/* <MathOpt2 /> */}
+    <Function />
 
   </StrictMode>,
 )
